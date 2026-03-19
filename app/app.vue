@@ -23,6 +23,7 @@
   border: 2px solid brown;
   padding: 10px;
   margin: 10px;
+  border-radius: 20px;
 }
 .btn::after {
   background-color: brown;
