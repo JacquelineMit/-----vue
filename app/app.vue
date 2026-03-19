@@ -1,18 +1,24 @@
 <template>
   <body class="main">
-    <header></header>
-    <div>
-      <img
-        src=".картинки\потребкорзина.jpg"
-        alt="собранная корзина"
-        class="img"
-      />
-      <img src=".картинки\молоко.jpg" alt="молоко" class="img" />
-    </div>
-    <div>
-      <button class="btn">Добавить в корзину</button>
-      <button class="btn">Добавить в корзину</button>
-    </div>
+    <header class="header">
+      <div>
+        <button class="btn">Назад</button>
+      </div>
+    </header>
+    <main>
+      <div>
+        <img
+          src=".картинки\потребкорзина.jpg"
+          alt="собранная корзина"
+          class="img"
+        />
+        <img src=".картинки\молоко.jpg" alt="молоко" class="img" />
+      </div>
+      <div>
+        <button class="btn">Добавить в корзину</button>
+        <button class="btn">Добавить в корзину</button>
+      </div>
+    </main>
   </body>
 </template>
 
@@ -21,6 +27,10 @@
 <style>
 .main {
   background-color: #c1d3ed;
+}
+
+.header {
+  background-color: #0675bb;
 }
 
 .btn {
