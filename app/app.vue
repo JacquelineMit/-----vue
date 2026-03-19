@@ -12,7 +12,6 @@
     <div>
       <button class="btn">Добавить в корзину</button>
       <button class="btn">Добавить в корзину</button>
-      <button class="btn">Добавить в корзину</button>
     </div>
   </body>
 </template>
