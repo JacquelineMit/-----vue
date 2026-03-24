@@ -2,12 +2,14 @@
   <main class="main">
     <div>
       <div class="card">
-        <img
-          src="~/assets/img/korzina.jpg"
-          alt="собранная корзина"
-          class="img"
-          width="200px"
-        />
+        <a href="..app/polnoefoto.vue/korzina.vue">
+          <img
+            src="~/assets/img/korzina.jpg"
+            alt="собранная корзина"
+            class="img"
+            width="200px"
+          />
+        </a>
         <Button label="Добавить в корзину"></Button>
       </div>
       <div class="card">
