@@ -21,6 +21,42 @@
         />
         <Button label="Добавить в корзину"></Button>
       </div>
+      <div class="card">
+        <img
+          src="~/assets/img/hleb.jpg"
+          width="200px"
+          alt="молоко"
+          class="img"
+        />
+        <Button label="Добавить в корзину"></Button>
+      </div>
+      <div class="card">
+        <img
+          src="~/assets/img/makarons.jpg"
+          width="200px"
+          alt="молоко"
+          class="img"
+        />
+        <Button label="Добавить в корзину"></Button>
+      </div>
+      <div class="card">
+        <img
+          src="~/assets/img/grehca.jpg"
+          width="200px"
+          alt="молоко"
+          class="img"
+        />
+        <Button label="Добавить в корзину"></Button>
+      </div>
+      <div class="card">
+        <img
+          src="~/assets/img/maso.jpg"
+          width="200px"
+          alt="молоко"
+          class="img"
+        />
+        <Button label="Добавить в корзину"></Button>
+      </div>
     </div>
   </main>
   <Footer></Footer>
