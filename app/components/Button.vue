@@ -20,16 +20,16 @@ function onClick() {
 
 <style scoped>
 .btn {
-  background-color: #c1d3ed;
-  color: #0675bb;
-  border: 2px solid #0675bb;
+  background-color: #f0ffff;
+  color: #008080;
+  border: 2px solid #008080;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
 }
 .btn--clicked {
-  background-color: #0675bb;
-  color: #c1d3ed;
-  border: 2px solid #c1d3ed;
+  background-color: #008080;
+  color: #f0ffff;
+  border: 2px solid #f0ffff;
 }
 </style>

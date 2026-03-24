@@ -8,6 +8,6 @@
 
 <style scoped>
 .main {
-  background-color: #0675bb;
+  background-color: #008b8b;
 }
 </style>

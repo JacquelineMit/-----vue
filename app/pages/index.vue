@@ -3,25 +3,32 @@
     <div>
       <div class="card">
         <img
-          src="~/assets/img/потребкорзина.jpg"
+          src="~/assets/img/korzina.jpg"
           alt="собранная корзина"
+          class="img"
+          width="200px"
+        />
+        <Button label="Добавить в корзину"></Button>
+      </div>
+      <div class="card">
+        <img
+          src="~/assets/img/milk.jpg"
+          width="200px"
+          alt="молоко"
           class="img"
         />
         <Button label="Добавить в корзину"></Button>
       </div>
-      <div>
-        <img src="~/assets/img/milk.jpg" alt="молоко" class="img" />
-        <Button label="Добавить в корзину"></Button>
-      </div>
     </div>
   </main>
+  <Footer></Footer>
 </template>
 
 <script setup></script>
 
 <style scoped>
 .main {
-  background-color: #c1d3ed;
+  background-color: #20b2aa;
 }
 
 .img {
