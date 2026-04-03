@@ -1,22 +1,12 @@
 <template>
   <main class="main">
     <div class="cards-container">
-      <div class="card">
-        <div class="card__content">
-          <NuxtLink to="/about">
-            <a href="../app/polnoefoto.vue">
-              <img
-                src="~/assets/img/korzina.jpg"
-                alt="собранная корзина"
-                class="img"
-                width="200px"
-              />
-            </a>
-          </NuxtLink>
-          <p class="text">Корзина продуктов</p>
-        </div>
-        <Button label="Добавить в корзину"></Button>
-      </div>
+      <ProductCard
+        :img="import('~/assets/img/korzina.jpg')"
+        imgAlt="Корзина продуктов"
+        title="Корзина продуктов"
+        description="Собраны базовые продукты для жизнедеятельности"
+      ></ProductCard>
       <div class="card">
         <img
           src="~/assets/img/milk.jpg"
@@ -78,33 +68,8 @@
   overflow-x: hidden;
 }
 
-.img {
-  border: 2px solid #008080;
-  margin: 10px;
-}
-
-.card {
-  display: flex;
-  padding: 8px;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.text {
-  color: #f0ffff;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  font-weight: bold;
 }
 </style>
