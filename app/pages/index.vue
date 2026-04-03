@@ -1,16 +1,18 @@
 <template>
   <main class="main">
-    <div>
+    <div class="cards-container">
       <div class="card">
-        <div>
-          <a href="..app/polnoefoto.vue/korzina.vue">
-            <img
-              src="~/assets/img/korzina.jpg"
-              alt="собранная корзина"
-              class="img"
-              width="200px"
-            />
-          </a>
+        <div class="card__content">
+          <NuxtLink to="/about">
+            <a href="../app/polnoefoto.vue">
+              <img
+                src="~/assets/img/korzina.jpg"
+                alt="собранная корзина"
+                class="img"
+                width="200px"
+              />
+            </a>
+          </NuxtLink>
           <p class="text">Корзина продуктов</p>
         </div>
         <Button label="Добавить в корзину"></Button>
@@ -83,8 +85,20 @@
 
 .card {
   display: flex;
+  padding: 8px;
   flex-direction: column;
   gap: 8px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .text {
